@@ -1,0 +1,11 @@
+order_date,product_name,category,region,quantity,unit_price,total_sales
+2025-01-01,Laptop,Electronics,South,10,50000,500000
+2025-01-02,Mouse,Electronics,North,25,500,12500
+2025-01-03,Keyboard,Electronics,West,20,1000,20000
+2025-01-04,Monitor,Electronics,East,8,12000,96000
+2025-01-05,Printer,Electronics,South,5,15000,75000
+2025-01-06,Laptop,Electronics,North,12,50000,600000
+2025-01-07,Mouse,Electronics,East,30,500,15000
+2025-01-08,Keyboard,Electronics,West,15,1000,15000
+2025-01-09,Monitor,Electronics,South,10,12000,120000
+2025-01-10,Printer,Electronics,North,7,15000,105000
