@@ -26,6 +26,16 @@ def inject_custom_css():
             font-size: 2rem !important;
             font-weight: 700 !important;
             margin-bottom: 0.4rem !important;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .main-header .header-icon {
+            height: 2.4rem;
+            width: auto;
+            border-radius: 0.6rem;
+            object-fit: contain;
         }
 
         .main-header p {
