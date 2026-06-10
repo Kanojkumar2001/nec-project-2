@@ -9,9 +9,11 @@ from utils.charts import sales_trend_chart, region_sales_chart
 
 create_project_folders()
 
+icon_url = "https://png.pngtree.com/png-vector/20220808/ourmid/pngtree-sales-icon-from-business-bicolor-set-charts-forecast-isolated-vector-png-image_19403186.jpg"
+
 st.set_page_config(
     page_title="Intelligent Sales Forecasting",
-    page_icon="📈",
+    page_icon=icon_url,
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -19,7 +21,7 @@ st.set_page_config(
 inject_custom_css()
 
 page_header(
-    "📈 Intelligent Sales Forecasting System",
+    f'<img src="{icon_url}" class="header-icon" alt="Sales icon"> Intelligent Sales Forecasting System',
     "AI-powered sales analytics, forecasting, and inventory optimization"
 )
 
